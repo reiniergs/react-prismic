@@ -23,7 +23,7 @@
         "firebase-tools": "^5.1.1",
         "pre-push": "^0.1.1",
         "react-dom": "^16.5.2",
-        "react-rainbow-styleguide": "^1.0.1",
+        "react-rainbow-styleguide": "^1.1.0",
         "react-scripts": "2.0.4",
         "react-styleguidist": "^7.3.9"
     },

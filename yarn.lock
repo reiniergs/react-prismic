@@ -9919,6 +9919,17 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
+react-prismic-cms@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-prismic-cms/-/react-prismic-cms-0.2.0.tgz#9a3c7a6e201e3e2d9c793ad36894d839dfc91f05"
+  dependencies:
+    classnames "^2.2.6"
+    prismic-javascript "^1.5.0"
+    prop-types "^15.6.2"
+    react "^16.5.2"
+    react-json-view "^1.19.1"
+    react-rainbow-components "^0.5.0"
+
 react-rainbow-components@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/react-rainbow-components/-/react-rainbow-components-0.5.1.tgz#3df489baf3d7ef83eb12d91262e5b12483bcadcd"
@@ -9931,9 +9942,9 @@ react-rainbow-components@^0.5.0:
     react-dom "^16.4.2"
     react-ga "^2.5.3"
 
-react-rainbow-styleguide@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-rainbow-styleguide/-/react-rainbow-styleguide-1.0.1.tgz#bf4b85d9b9a4e92ceb8133bc36f805afea91e37e"
+react-rainbow-styleguide@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-rainbow-styleguide/-/react-rainbow-styleguide-1.1.0.tgz#18fc7ac0c4ffd4028128595ea6416444978f5303"
   dependencies:
     "@babel/core" "^7.0.1"
     "@babel/preset-react" "^7.0.0"
@@ -9957,6 +9968,7 @@ react-rainbow-styleguide@^1.0.1:
     npm-run-all "^4.1.3"
     prop-types "^15.6.2"
     react "^16.5.2"
+    react-prismic-cms "^0.2.0"
     react-rainbow-components "^0.5.0"
     react-styleguidist "^7.3.10"
 

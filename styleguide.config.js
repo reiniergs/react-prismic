@@ -12,6 +12,7 @@ module.exports = withRainbowStyles({
     ],
     skipComponentsWithoutExample: true,
     pagePerSection: true,
+    ribbon: { url: 'https://github.com/reiniergs/react-prismic-cms' },
     sections: [
         {
             name: 'Query Components',
