@@ -1,4 +1,4 @@
-full text example:
+vegetables:
 
     const Input = require('react-rainbow-components/components/Input').default;
 
@@ -21,7 +21,6 @@ full text example:
 
             return (
                 <div>
-                    <GlobalHeader title="vegetables" />
                     <Input
                         style={inputStyle}
                         placeholder="Search"
@@ -43,7 +42,7 @@ full text example:
     <FullTextExample />
 
 
-fruits full text:
+fruits:
 
     const Input = require('react-rainbow-components/components/Input').default;
 
@@ -66,7 +65,6 @@ fruits full text:
 
             return (
                 <div>
-                    <GlobalHeader title="fruits" />
                     <Input
                         style={inputStyle}
                         placeholder="Fruit Search"

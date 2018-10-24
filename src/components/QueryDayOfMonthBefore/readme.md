@@ -1,8 +1,5 @@
-example:
+Publications before 16th:
 
-    <div>
-        <GlobalHeader title="Publications before 16th" />
-        <Prismic repo="react-prismic-cms">
-            <QueryDayOfMonthBefore path="document.first_publication_date" value={16} component={ExampleCard} />
-        </Prismic>
-    </div>
+    <Prismic repo="react-prismic-cms">
+        <QueryDayOfMonthBefore path="document.first_publication_date" value={16} component={ExampleCard} />
+    </Prismic>
