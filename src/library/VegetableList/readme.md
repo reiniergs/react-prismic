@@ -1,4 +1,4 @@
-example:
+VegetableList example:
 
     const response = {
         results: [{
@@ -11,8 +11,4 @@ example:
         }]
     };
 
-    <div>
-        <GlobalHeader title="Broccoli" />
-        <ExampleCard response={response} />
-    </div>
-
+    <VegetableList response={response} />

@@ -31,7 +31,7 @@ vegetables:
                         <QueryFullText
                             path="document"
                             value={value}
-                            component={ExampleCard} />
+                            component={VegetableList} />
 
                     </Prismic>
                 </div>
@@ -75,7 +75,7 @@ fruits:
                         <QueryFullText
                             path="my.fruits.name"
                             value={value}
-                            component={ExampleCard} />
+                            component={VegetableList} />
 
                     </Prismic>
                 </div>

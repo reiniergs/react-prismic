@@ -37,7 +37,7 @@ function CardItems({ results }) {
     ));
 }
 
-export default function ExampleCard(props) {
+export default function VegetableList(props) {
     const { className, style, response } = props;
 
     const getContainerClassNames = () => classnames('prismic-cms-card_content', className);
@@ -52,13 +52,13 @@ export default function ExampleCard(props) {
     return null;
 }
 
-ExampleCard.propTypes = {
+VegetableList.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
     response: PropTypes.object,
 };
 
-ExampleCard.defaultProps = {
+VegetableList.defaultProps = {
     className: undefined,
     style: undefined,
     response: null,
